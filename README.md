@@ -6,7 +6,7 @@ A lightweight RAG pipeline for question answering powered with Irodov's 5 volume
 
 ## Functional abilities
 
-* Download Irodov [dataset](https://www.kaggle.com/datasets/alexzyukov/irodov) from Kaggle and convert to markdown files.
+* Download Irodov [dataset](https://www.kaggle.com/datasets/alexzyukov/irodov) from Kaggle. The dataset contains 2.4 million symbols and was prepared with [datalab/marker](https://github.com/pymlex/datalab-pdf2md-example).
 * Split documents into chunks and build FAISS index.
 * Serve embeddings via a remote embeddings API.
 * Query index and compose context aware prompts for an LLM backend.
@@ -99,3 +99,4 @@ curl -X POST "https://unsincerely-tiddly-cristian.ngrok-free.dev/chat" -H "Conte
 Expected response contains answer and a list of source snippets.
 
 ---
+
