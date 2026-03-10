@@ -1,0 +1,13 @@
+faiss-cpu
+numpy
+requests
+langchain
+fastapi
+uvicorn
+python-dotenv
+kaggle
+tqdm
+pyngrok
+sentence-transformers
+langchain-community faiss-cpu
+langchain-text-splitters
